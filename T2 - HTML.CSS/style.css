@@ -1,0 +1,50 @@
+body {  /*Estilização de toda a página (o corpo)*/
+    border: 0;
+    margin: 0;
+    padding: 0;  /*Preenchimento*/
+    background-color: rgb(197, 235, 240);
+}
+header {  /*Estilização do cabeçalho*/
+    background-color: #84c6e3;
+    height: 100px;  /*Altura*/
+}
+.centro {  /*. = para classes*/  /*Estilização de tudo que estiver dentro da classe .centro*/
+    max-width: 1280px;  /*Largura se ajusta de acordo com o tamanho da janela*/
+    margin: 0 auto;
+}
+header #logo_topo {  /*# = para IDs*/  /*Estilização da div #logo_topo do cabeçalho*/
+    float: left;
+}
+header #logo_topo img {  /*Estilização da imagem da div #logo_topo do cabeçalho*/
+    height: 100px
+}
+header nav {  /*Estilização do menu do cabeçalho*/
+    float: right;
+}
+header nav ul {  /*Estilização da lista do menu do cabeçalho*/
+    display: flex;  /*Deixa um ao lado do outro*/
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {  /*Estilização dos elementos da lista do menu do cabeçalho*/
+    list-style: none;
+    padding: 41px 20px;
+    border-right: solid 1px #666666;
+}
+header nav ul li:last-child {  /*Estilização do último elemento da lista do cabeçalho (Contatos)*/
+    /*
+    last-child = seleciona o último elemento
+    first-child = seleciona o primeiro elemento
+    nth child = seleciona algum elemento intermediário
+    */
+    border: none;  /*Sem borda*/
+}
+header nav ul li:hover {  /*Estilização*/
+    background-color: rgba(0,0,0,0.2);
+}
+section {  /*Estilização da parte com texto (Nome, Turno...)*/
+    width: 100%;  /*Largura*/
+    min-height: 300px;  /*Altura se ajusta de acordo com o tamanho da janela*/
+    background-color: rgb(197, 235, 240);
+}

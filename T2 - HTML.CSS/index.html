@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "pt-br">  <!--Selecionar para língua portuguesa permite que possamos utilizar acentos e outros símbolos-->
+    <head>
+        <meta charset = "UTF-8">  <!-- Com a linguagem português ativada, a coleção "UTF-8" adiciona os elemntos brasileiros (acentos por exemplo) ao texto-->
+        <title> EX1 </title>
+        <link rel= "stylesheet" href= "style.css" media = "screen">  <!--Evite de usar espaço entre os códigos-->
+    </head>
+    <body>
+        <header>
+            <div class = "centro">
+                <div id = "logo_topo">
+                    <img src = "img\logo_fundo_azul.jpg" alt = "Logo da Firjan SENAI com fundo azul">  <!--Adiciona uma imagem e o nome dela-->
+                    <!--src = serve para inserir o link da imagem-->
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href = "#"> Home </a>  <!--Adiciona item da lista clicável e com link-->
+                        </li>
+                        <li>
+                            <a href = "#"> Empresa </a>
+                        </li>
+                        <li>
+                            <a href = "#"> Serviços </a>
+                        </li>
+                        <li>
+                            <a href = "#"> Contatos </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div id = "formulário">
+                <form action = "#" method = "post">
+                    <p>
+                        <label>  <!--Adiciona um item na interface-->
+                            Nome:
+                        </label>
+                        <input type = "text" name = "nome" placeholder = "Digite seu nome:">  <!--Tipo do item = caixa de escrita-->
+                    </p>
+                    <p>
+                        <label>
+                            Turno:
+                        </label>
+                    </p>
+                        <label> 
+                            Manhã
+                        </label>                    
+                        <input type = "radio">  <!--Tipo do item = opção clicável-->
+                        <label>
+                            Tarde
+                        </label>
+                        <input type = "radio"> 
+                        <label>
+                            Noite
+                        </label>
+                        <input type = "radio"> 
+                    <p>
+                        <label>
+                            Mensagem:
+                        </label>
+                        <input type = "text" placeholder = "Considerações finais:" size = "30px">  <!--Placeholder = o que vai aparecer dentro da caixa de escrita-->
+                    </p>                        
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
